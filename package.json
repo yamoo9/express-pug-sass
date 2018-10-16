@@ -1,0 +1,29 @@
+{
+  "name": "projectkit-express-pug-sass",
+  "version": "0.0.1",
+  "description": "프로젝트킷 :: Express + Pug + Sass / Sequelize + MySQL",
+  "main": "app.js",
+  "author": {
+    "name": "yamoo9",
+    "email": "yamoo9@naver.com"
+  },
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "morgan": "^1.9.1",
+    "mysql2": "^1.6.1",
+    "node-sass-middleware": "^0.11.0",
+    "pug": "^2.0.3",
+    "sequelize": "^4.39.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
